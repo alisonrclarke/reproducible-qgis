@@ -1,4 +1,4 @@
-# Turn processing history into an executable python script
+# Turn QGIS processing history into an executable python script
 
 `convert_history_to_python.py` looks in your QGIS processing log for processing commands run in a given data directory,
 and exports them as an executable file. This file can then be pushed to github or included in a data deposit, to enable
