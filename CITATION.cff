@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: reproducible-egis
+message: Please cite this dataset using these metadata.
+type: software
+authors:
+  - given-names: Alison
+    family-names: Clarke
+    email: alison.r.clarke@durham.ac.uk
+    affiliation: Durham University
+    orcid: 'https://orcid.org/0000-0002-0205-6644'
+  - given-names: Michelle
+    family-names: de Gruchy
+    affiliation: Durham University
+    orcid: 'https://orcid.org/0000-0002-7856-8013'
+repository: 'https://doi.org/10.5281/zenodo.5615533'
+abstract: >
+  Turns your QGIS processing history into an
+  executable python script.
+
+
+  convert_history_to_python.py looks in your QGIS
+  processing log for processing commands run in a
+  given data directory, and exports them as an
+  executable file. This file can then be pushed to
+  github or included in a data deposit, to enable
+  others to reproduce your analysis.
+keywords:
+  - QGIS
+  - reproducibility
+license: GPL-3.0-or-later
