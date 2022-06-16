@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: reproducible-egis
+title: Reproducible QGIS
 message: Please cite this dataset using these metadata.
 type: software
 authors:
@@ -15,7 +15,19 @@ authors:
     family-names: de Gruchy
     affiliation: Durham University
     orcid: 'https://orcid.org/0000-0002-7856-8013'
-repository: 'https://doi.org/10.5281/zenodo.5615533'
+references:
+  - authors:
+      - family-names: Clarke
+        given-names: Alison
+      - family-names: Karoune
+        given-names: Emma
+      - family-names: de Gruchy
+        given-names: Michelle
+      - family-names: Syrotiuk
+        given-names: Nick
+    title: "Reproducible Research in Archaeology"
+    doi: https://doi.org/10.5281/zenodo.5615534
+    type: video
 abstract: >
   Turns your QGIS processing history into an
   executable python script.
@@ -31,3 +43,4 @@ keywords:
   - QGIS
   - reproducibility
 license: GPL-3.0-or-later
+url: https://github.com/alisonrclarke/reproducible-qgis
