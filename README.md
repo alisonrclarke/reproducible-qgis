@@ -12,7 +12,7 @@ To export QGIS processing history based on a given data directory (do **either**
 
 1.  **From the command line, if you have python installed**:
 
-    Change directory to the location of `convert_history_to_python`, (e.g. `/Users/ksvf48/Documents/GitHub/domain-specific-software-sustainability/scripts/qgis/processing_history`) and run:
+    Change directory to the location of `convert_history_to_python`, (e.g. `/Users/ksvf48/Documents/GitHub/reproducible-qgis`) and run:
 
     ```bash
     python convert_history_to_python.py <data_dir>
@@ -27,7 +27,7 @@ To export QGIS processing history based on a given data directory (do **either**
 2.  **From QGIS**:
 
     1. Open the python console.
-    2. Type the following, replacing `<location>` with the location where this directory is checked out, e.g. `sys.path.append('/Users/ksvf48/Documents/GitHub/domain-specific-software-sustainability/scripts/qgis/processing_history')`, and `<data_dir>` with the directory where your input data is stored:
+    2. Type the following, replacing `<location>` with the location where this directory is checked out, e.g. `sys.path.append('/Users/ksvf48/Documents/GitHub/reproducible-qgis')`, and `<data_dir>` with the directory where your input data is stored:
 
       ```python
       sys.path.append('<location>')
@@ -77,7 +77,7 @@ You can choose to output the file to a different location `<output_script_dir>` 
 To rerun the processing from QGIS:
 
 1. Open the python console.
-2. Run the following commands, replacing `<script_dir>` with the folder where `qgis_commands.py` is (e.g. `/Users/ksvf48/Documents/dev/domain-specific-software-sustainability/scripts/qgis/processing/outputs/2021-10-04_155206`):
+2. Run the following commands, replacing `<script_dir>` with the folder where `qgis_commands.py` is (e.g. `/Users/ksvf48/Documents/GitHub/reproducible-qgis/outputs/2021-10-04_155206`):
 
   ```python
   sys.path.append('<script_dir>')
