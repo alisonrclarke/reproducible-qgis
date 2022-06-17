@@ -54,7 +54,6 @@ def convert_history_to_python(data_dir, output_dir=None, qgis_user_profile_dir=N
 
     with open(output_file, 'w') as output:
         output.write(f"""
-import os
 from pathlib import Path
 from qgis import processing
 from qgis.core import QgsVectorLayer, QgsProject
